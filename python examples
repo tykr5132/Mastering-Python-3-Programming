@@ -1,0 +1,15 @@
+import array as arr
+class tyr:
+    def array(self,n):
+        self.n=n
+        array_ele=arr.array('i')
+        for i in range(0,n):
+            element=int(input(f"Enter the element  {i+1}  "))
+            array_ele.append(element)
+        print(array_ele)
+y=tyr()
+n=int(input("ENter the no of elements"))
+print(y.array(n))
+
+
+
