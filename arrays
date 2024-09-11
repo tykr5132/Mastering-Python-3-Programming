@@ -1,0 +1,9 @@
+import numpy as np
+n=[]
+for i in range(0,10):
+    n.append(int(input()))
+x=np.array(n)
+print(x)
+x.sort()
+print(x)
+print(type(x))
